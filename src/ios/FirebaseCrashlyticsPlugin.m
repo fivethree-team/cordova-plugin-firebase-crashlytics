@@ -1,5 +1,5 @@
 #import "FirebaseCrashlyticsPlugin.h"
-
+#import <Crashlytics/Crashlytics.h>
 #import <Cordova/CDVAvailability.h>
 
 @implementation FirebaseCrashlyticsPlugin

@@ -56,7 +56,7 @@
   </platform>
 
   <platform name="ios">
-    <js-module src="www/crashlytics.js" name="FirebaseCrashlytics">
+    <js-module src="www/ios/crashlytics.js" name="FirebaseCrashlytics">
       <clobbers target="FirebaseCrashlytics"/>
     </js-module>
 
@@ -73,7 +73,6 @@
       <pods use-frameworks="true">
         <pod name="Fabric"/>
         <pod name="Crashlytics" />
-        <pod name="FirebaseCore" />
       </pods>
     </podspec>
 
